@@ -18,7 +18,7 @@ This is simple Python Telegram Bot.
         -F "secret_token=${SECRET_TOKEN}"
     ```
 1) Message you bot with `/start` or just say `Hello!`
-
+1) Check your bot's status: `https://api.telegram.org/bot${BOT_TOKEN}/getWebhookInfo`
 
 ## Run Locally
 
