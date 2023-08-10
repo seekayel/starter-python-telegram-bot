@@ -15,8 +15,10 @@ load_dotenv()
 
 # Read the variable from the environment (or .env file)
 bot_token = os.getenv('BOT_TOKEN')
+webhook_url = os.getenv('CYCLIC_URL', 'http://localhost:8181') + "/webhook/"
 
 bot = Bot(token=bot_token)
+bot.set_webhook(url=webhook_url)
 
 @app.post("/webhook/")
 async def handle_webhook(update: TelegramUpdate):
