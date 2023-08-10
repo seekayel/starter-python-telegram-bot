@@ -24,7 +24,7 @@ bot = Bot(token=bot_token)
 # print(webhook_info)
 
 def auth_telegram_token(x_telegram_bot_api_secret_token: str = Header(None)) -> str:
-    return true # uncomment to disable authentication
+    # return true # uncomment to disable authentication
     if x_telegram_bot_api_secret_token != secret_token:
         raise HTTPException(status_code=403, detail="Not authenticated")
     return x_telegram_bot_api_secret_token
