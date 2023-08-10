@@ -33,3 +33,8 @@ Run: `bin/start`
 Join us on Discord: [https://discord.cyclic.sh](https://discord.cyclic.sh)
 
 Enjoy!
+
+
+curl -F "url=https://weak-red-toad.cyclic.app/webhook/sec_0103b52d06e2ba8f7e3782c86d3958d49217fdb1" https://api.telegram.org/bot6619820209:AAFlZu0vdfKtvMbm12Ueyiv5tHPXSMCelsI/setWebhook
+
+curl -F "url=https://weak-red-toad.cyclic.app/webhook/" https://api.telegram.org/bot6619820209:AAFlZu0vdfKtvMbm12Ueyiv5tHPXSMCelsI/setWebhook
